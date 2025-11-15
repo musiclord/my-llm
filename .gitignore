@@ -1,0 +1,108 @@
+# macOS 系統垃圾檔案
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python venv
+venv/
+env/
+ENV/
+.venv
+
+# VSCode 設定
+.vscode/
+
+# IDE 設定檔
+.idea/
+*.swp
+*.swo
+*~
+
+# Build 輸出
+dist/
+build/
+
+# Log 檔案
+*.log
+logs/
+*.log.*
+
+# Python 編譯產物
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# 單元測試
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+
+# VSCode 使用者狀態檔
+.history/
+.settings/
+
+# Python build 工具產出
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+
+# 系統暫存
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# ===== 機器學習 / LLM 專案特定 =====
+
+# 訓練資料集 (通常太大不適合 commit)
+data/
+datasets/
+*.csv
+*.tsv
+*.jsonl
+
+# 模型檔案 (通常很大,建議用 Git LFS 或另外管理)
+models/
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.pkl
+*.pickle
+*.joblib
+*.safetensors
+*.bin
+*.onnx
+
+# 模型訓練輸出
+checkpoints/
+outputs/
+runs/
+lightning_logs/
+wandb/
+mlruns/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb
+
+# 預處理資料快取
+*.cache
+cache/
+.cache/
+
+# Tokenizer 檔案 (若需版本控制則移除此行)
+*.vocab
+*.model
+tokenizer/
